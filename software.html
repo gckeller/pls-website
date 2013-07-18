@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="PLS Group Software" />
+<meta name="author" content="Gabriele Keller  / Design based on page by: Andreas Viklund - http://andreasviklund.com/" />
+<link rel="stylesheet" type="text/css" href="pls.css" media="screen" title="andreas02 (screen)" />
+<link rel="stylesheet" type="text/css" href="print.css" media="print" />
+<title>Programming Languages and Systems Homepage</title>
+</head>
+
+<body>
+<div id="toptabs">
+<p>Site Network: 
+<a class="activetoptab" href="index.html">Personal</a><span class="hide"> | </span>
+</div>
+
+<div id="container">
+<div id="logo">
+<h1><a href="index.html">Programming Language and Systems Group</a></h1>
+</div>
+
+<div id="navitabs">
+<h2 class="hide">Site menu:</h2>
+<a class="navitab" href="index.html">Home</a><span class="hide"> | </span>
+<a class="navitab" href="publications.html">Publications</a><span
+class="hide"> | </span>
+<a class="navitab" href="students.html">People</a><span class="hide">
+| </span>
+  <a class="activenavitab" href="publications.html">Software</a><span
+</div>
+<div id="desc">
+<br>
+<p>
+</div>
+    
+<div id="main">
+
+<p>
+<h2><a href="http://haskell.org">Haskell</a> Code</h2>
+
+    <h3>Data Parallel Haskell: a high-performance extension to GHC</h3>
+    <p>
+      The <a href="project/dph/">Data Parallel Haskell</a> project is about
+      adding support for nested data paralellism to the <a
+      href="http://haskell.org/ghc/">Glasgow Haskell Compiler (GHC).</a>
+      <a href="http://www.cs.cmu.edu/~scandal/cacm/cacm2.html">Nested data
+      parallelism</a> enables a high-level description of a wide range of
+      parallel algorithms, while supporting a language-based cost model.  It
+      is also a rather <a
+      href="http://www.cse.unsw.edu.au/~chak/papers/#ndpport">portable</a>
+      form of parallelism, although our current focus for Data Parallel
+      Haskell is SMP hardware, and especially, <a
+      href="http://en.wikipedia.org/wiki/Multi-core">multi-core</a> processors.
+    </p>
+
+    <h3>Data.Array.Accelerate: accelerated array processing in Haskell</h3>
+    <p>
+      <a href="project/accelerate/">Data.Array.Accelerate</a> is a Haskell
+      library that provides an embedded language of collective operations on
+      regular, multidimensional arrays.  It is currently under active
+      development with the aim of providing online compilation of the embedded
+      array language to a variety of high-performance architectures, such as 
+      programmable GPUs.
+    </p>
+
+    <h3>C-&gt;Haskell: Haskell bindings to C libraries made easy</h3>
+    <p>
+      <a
+      href="haskell/c2hs/">C-&gt;Haskell</a> is an interface generator for
+      Haskell
+      bindings to C libraries.  Most of the Gtk+HS binding is generated using
+      C-&gt;Haskell.
+    </p>
+
+    <h3>&lambda;Feed: Generate your own news feeds, blog feeds, podcasts,
+    etc.</h3>
+    <p>
+      <a href="haskell/lambdaFeed/">&lambda;Feed</a> generates RSS 2.0 feeds
+      and corresponding HTML from a non-XML, human-friendly format for
+      channels and news items.  The tool is in an early development phase and
+      very hackable.
+    </p>
+
+    <h3>VersionTool: Integrate version information into program sources</h3>
+    <p>
+      <a href="haskell/VersionTool/">VersionTool</a> extracts version
+	information from a <a
+	href="http://haskell.org/cabal/"><code>.cabal</code></a> file and from
+	<a href="http://darcs.net/">darcs</a>, and then, inserts it into a
+      source file.  A tiny tool that you can add easily add to your project.
+    </p>
+
+    <h3>Gtk+HS: A library for powerful GUIs in Haskell</h3>
+    <p>
+      <em>This project is no longer under active development.</em>
+      Together with a some other Haskell hackers, I am currently developing a
+      <a href="haskell/gtk/">GTK+ Binding for Haskell</a>.  It is already
+      usable for GUIs of medium complexity and also features support
+      for OpenGL via <a
+	href="http://www.informatik.uni-muenchen.de/~Sven.Panne/">Sven
+	Panne's</a> <a
+	href="http://haskell.org/HOpenGL/">HOpenGL</a> 
+      and <a href="http://www.student.oulu.fi/~jlof/gtkglarea/">GtkGLArea</a>
+      as well as a binding to a widget embedding the rendering engine of the <a
+      href="http://mozilla.org/">Mozilla</a> web browser and libglade.
+      There an experimental wrapper for functional GUI programming in the GTK+
+      binding now: <a href="haskell/gtk/#iHaskell">iHaskell.</a>  It is based
+      on the <a href="haskell/ports/">Haskell Ports Library,</a> a new
+      abstraction for modelling time-dependent variables in Haskell.
+    </p>
+
+</div>
+<div id="sidebar">
+
+</div>
+    
+<div id="footer">
+Copyright &copy; 2013 (Gabriele Keller). Based on design by <a href="http://andreasviklund.com">Andreas Viklund</a>.
+</div>
+
+</div>
+</body>
+</html>
