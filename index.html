@@ -64,38 +64,49 @@ Within UNSW, we cooperate with the CORG group (programming language implementati
 
 </p>
 <p>
-  <h2> Projects </h2>
+<h2> Projects </h2>
 
-  <h3> <a href="http://www.haskell.org/haskellwiki/GHC/Data_Parallel_Haskell">Data Parallel Haskell </a></h3>
+<h3> <a href="http://www.haskell.org/haskellwiki/GHC/Data_Parallel_Haskell">Data Parallel Haskell (DPH)</a></h3>
 
-Data Parallel Haskell (DPH) is one of the core projects of our group 
-and aims at providing full support for nested data parallelism
-for Haskell targeting multicore CPUs. The current experimental 
-implementation is  available as an extension to
-the Glasgow Haskell Compiler as a set of cabal packages, 
+Data Parallel Haskell (DPH) is one of the core projects of our group and aims at providing full support for nested data parallelism for Haskell targeting multicore CPUs. The current experimental implementation is  available as an extension to
+the Glasgow Haskell Compiler as a set of cabal packages. 
+
 
 <h3><a href="http://repa.ouroborus.net">Repa</a></h3>
-
 Repa is a Haskell library which supports parallel multidimensional
 matrix calculations and stencil operations. These operations are more
 specialised than nested data parallelism, but play a central role in a
 large range of numerical computations. Due to their more specific
 nature, these computations can be optimised more aggressively. 
 
-  <h3><a href="http://hackage.haskell.org/package/accelerate"> Accelerate</a> </h3>
 
+<h3><a href="http://hackage.haskell.org/package/accelerate"> Accelerate</a> </h3>
 Accelerate is a domain-specific array language embedded in Haskell,
 which generates code exploiting the parallel capabilities of graphical
 processing units (GPU), for applications in areas including physical
 simulations and computer vision.
 
-  <h3> <a href="http://www.ssrg.nicta.com.au/projects/TS/filesystems.pml"> Trustworthy File Systems </a></h3> This project is a
-  cooperation with researchers from the <a href"http://www.ssrg.nicta.com.au"> Software Systems Research Group</a> at 
-  NICTA investigating the automated
-  synthesis of file-system code (and matching correctness proofs) from
-  formal specifications. More precisely, a file system is specified as
-  an OS interface, an on-disk data structure, and a high-level
-  behavioural description matching the two.
+
+<h3> <a href="http://www.ssrg.nicta.com.au/projects/TS/filesystems.pml"> Trustworthy File Systems </a></h3> 
+This project is a cooperation with researchers from the 
+<a href"http://www.ssrg.nicta.com.au"> Software Systems Research Group</a> at 
+NICTA investigating the automated synthesis of file-system code (and matching correctness proofs) from
+formal specifications. More precisely, a file system is specified as
+an OS interface, an on-disk data structure, and a high-level
+behavioural description matching the two.
+
+
+<h3><a href="http://disciple.ouroborus.net">The Disciplined Disciple Compiler (DDC)</a></h3>
+DDC is a research compiler used to investigate program transformation in the presence of computational effects. It compiles a family of strict functional core languages and supports region, effect and closure typing. Programs can be written in either a pure/functional or effectful/imperative style, and one of our goals is to provide both styles coherently in the same language.
+
+
+<h3><a href="http://iron.ouroborus.net">Iron Lambda</a></h3>
+Iron Lambda is a collection of ​<a href="http://coq.inria.fr Coq">Coq</a> formalisations for functional languages of increasing complexity. It fills part of the gap between the end of the ​<a href="http://www.cis.upenn.edu/~bcpierce/sf/">Software Foundations</a> course and what appears in current research papers.
+
+
+<h3><a href="http://gloss.ouroborus.net">Gloss</a></h3>
+Gloss hides the pain of drawing simple 2D graphics in Haskell behind a nice data structure and a couple of display functions. Used in 1st year CompSci at the ANU and UNSW. The library uses the GHC OpenGL binding, but you won't have to worry about any of that. Get something cool on the screen in under 10 minutes.
+
 
 </p>  
 <!-- 
@@ -105,24 +116,32 @@ simulations and computer vision.
 </div>
 
 <div id="sidebar">
-	<h3>People:</h3>
+<h3>People:</h3>
 
 
-<p><img class="photo" src="images/manu.jpg" height="150" width="130" alt="" />
-Manuel Chakravarty<br>
+<p>
+<a href="http://www.cse.unsw.edu.au/~chak">
+        <img class="photo" src="images/manu.jpg" height="150" width="130" alt="" />
+</a>
+<a href="http://www.cse.unsw.edu.au/~chak">Manuel Chakravarty</a><br>
 Group Co-head
 </p>
-	<p><img class="photo" src="images/me.jpg" height="150" width="130" alt="" />
-Gabriele Keller<br>
+
+<p>
+<a href="http://www.cse.unsw.edu.au/~keller">
+        <img class="photo" src="images/me.jpg" height="150" width="130" alt="" />
+</a>
+<a href="http://www.cse.unsw.edu.au/~keller">Gabriele Keller</a><br>
 Group Co-head
 </p>
-<p><img class="photo" src="images/Ben.jpg" height="150" width="130" alt="" />
-Ben Lippmeier<br>
+
+<p>
+<a href="http://www.cse.unsw.edu.au/~benl">
+        <img class="photo" src="images/Ben.jpg" height="150" width="130" alt="" />
+</a>
+<a href="http://www.cse.unsw.edu.au/~benl">Ben Lippmeier</a><br>
 Research Associate
 </p>
-
-
-
 
 </div>
     
