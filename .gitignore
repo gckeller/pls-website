@@ -1,0 +1,6 @@
+/hakyll/site
+/hakyll/_cache/
+/hakyll/_site/
+
+/hakyll/site.hi
+/hakyll/site.o
