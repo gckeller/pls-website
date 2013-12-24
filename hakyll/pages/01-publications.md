@@ -13,14 +13,15 @@ Proceedings of [ICFP 2013 : The 18th ACM SIGPLAN International
 Conference on Functional
 Programming](http://www.icfpconference.org/icfp2013/), ACM Press, 2013.
 
-Data Flow Fusion with Series Expressions in Haskell. Ben Lippmeier,
+[Data Flow Fusion with Series Expressions in Haskell](). Ben Lippmeier,
 Manuel M. T. Chakravarty, Gabriele Keller, and Amos Robinson. In
 Proceedings of [ACM SIGPLAN Haskell Symposium
 2013](http://www.haskell.org/haskell-symposium/2013/), ACM Press, 2013
 
-File Systems Deserve Verification Too! Gabriele Keller, Toby Murray,
-Sidney Amani, Liam Connor, Zilin Chen, Leonid Ryzhyk, Gerwin Klein,
-Gernot Heiser. Submitted, 2013.
+[File Systems Deserve Verification Too!](http://www.nicta.com.au/pub?id=7248) Gabriele Keller, Toby Murray,
+Sidney Amani, Liam O'Connor, Zilin Chen, Leonid Ryzhyk, Gerwin Klein,
+Gernot Heiser. Submitted, 2013. In proceedings of [PLOS 2013 : The 7th Workshop on 
+Programming Languages and Operating Systems](http://plosworkshop.org/2013/), ACM Press, 2013.
 
 ### 2012
 

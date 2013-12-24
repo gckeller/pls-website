@@ -11,6 +11,8 @@ Current PhD and Masters Students
 
 **Robert Clifton-Everest**
 
+**Liam O'Connor** (with [SSRG at NICTA](http://www.ssrg.nicta.com.au/))
+
 **Georgy Roldugin**
 
 Current Thesis Students
