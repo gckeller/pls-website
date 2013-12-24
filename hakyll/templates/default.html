@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="PLS Home Page" />
+<meta name="keywords" content="Programming Language and Systems, Functional Languages, Parallelism, Haskell" />
+<meta name="author" content="Gabriele Keller  / Design based on page by: Andreas Viklund - http://andreasviklund.com/" />
+<link rel="stylesheet" type="text/css" href="/css/pls.css" media="screen" title="pls (screen)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<title>Programming Languages and Systems Homepage</title>
+</head>
+
+<body>
+<!--<div id="toptabs">
+<p>Site Network: 
+<a class="activetoptab" href="index.html">Personal</a><span class="hide"> | </span>
+</div>
+
+-->
+<div id="container">
+<div id="logo">
+<h1><a href="index.html">Programming Languages and Systems Group</a></h1>
+</div>
+
+<div id="navitabs">
+<h2 class="hide">Site menu:</h2>
+$for(pages)$
+$if(nonavbar)$
+$else$
+<a class="$if(active)$activenavitab$else$navitab$endif$" $if(isHome)$style='border-left:0px'$endif$ href="/$href$">$title$</a>
+$endif$
+$sep$<span class="hide"> | </span>
+$endfor$
+</div>  
+	
+<div id="desc">
+<br/>
+<p>$partial("templates/address.html")$</p>
+</div>
+    
+<div id="main">
+<br/>
+$body$
+</div>
+
+<div id="sidebar">
+$partial("templates/sidebar.html")$
+</div>
+    
+<div id="footer">
+$partial("templates/footer.html")$
+</div>
+
+</div>
+</body>
+</html>
+
