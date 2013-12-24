@@ -14,14 +14,10 @@ Teaching
 
 Courses currently taught by Manuel Chakravarty or Gabriele Keller:
 
--   *[Principles of Programming Languages
-    (COMP3161/COMP9161)](https://www.openlearning.com/unsw/courses/COMP3161)*
--   *[Software System Design and Implementation
-    (COMP3141)](http://www.cse.unsw.edu.au/~cs3141/)*
--   *[Language-Based Software Safety
-    (COMP4181/COMP9181)](http://www.cse.unsw.edu.au/~cs4181/)*
--   *[Computing 2
-    (COMP1927)](https://wiki.cse.unsw.edu.au/info/COMP1927)*
+-   *[Principles of Programming Languages (COMP3161/COMP9161)](https://www.openlearning.com/unsw/courses/COMP3161)*
+-   *[Software System Design and Implementation (COMP3141)](http://www.cse.unsw.edu.au/~cs3141/)*
+-   *[Language-Based Software Safety (COMP4181/COMP9181)](http://www.cse.unsw.edu.au/~cs4181/)*
+-   *[Computing 2 (COMP1927)](https://wiki.cse.unsw.edu.au/info/COMP1927)*
 
 Research
 --------
@@ -32,17 +28,17 @@ focus on the intersection of theory and practice. This, quite naturally,
 makes computational calculi and programming languages derived from these
 calculi an integral part of our work. Hence, much of our attention is
 focused on functional programming, which is the most successful
-programming paradigm founded on a rigorous mathematical discipline. It's
+programming paradigm founded on a rigorous mathematical discipline. Its
 foundation, the lambda calculus, has an elegant computational theory and
 is arguably the smallest universal programming language. As such, the
 lambda calculus is also crucial to understand the properties of language
-paradigms other functional programming. We apply insights derived from
+paradigms other than functional programming. We apply insights derived from
 foundational studies to areas that span programming language design,
 compilers, parallel and high-performance computing, and computer
 security. Within UNSW, we cooperate with the CORG group (programming
 language implementations, compiler optimisations and dynamic
-compilation). Moreover, we are involved in the ERTOS (Embedded,
-Real-Time and Operating Systems) program of NICTA. We collaborate with a
+compilation). Moreover, we are involved in the Trustworthy Systems project
+with the Software Systems Research Group at NICTA. We collaborate with a
 number of international partners, including close work with the GHC team
 at Microsoft Research Cambridge.
 
