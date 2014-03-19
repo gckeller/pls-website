@@ -37,13 +37,13 @@ color: #808080;
 padding: 3px 5px 3px 5px;
 margin: 0 0 0 4px;
 text-decoration: none;
-background: #f0f0f0 url(/images/corner2.gif) top right no-repeat;
+background: #f0f0f0 url(/~pls/PLSWebsite/pls-website/hakyll/_site/images/corner2.gif) top right no-repeat;
 color: #808080;
 border-bottom: 1px solid #e0e0e0;
 }
 
 .toptab:hover {
-background: #fafafa url(/images/corner2.gif) top right no-repeat;
+background: #fafafa url(/~pls/PLSWebsite/pls-website/hakyll/_site/images/corner2.gif) top right no-repeat;
 border-bottom: 1px solid #eaeaea;
 color: #505050;
 text-decoration: none;
@@ -54,7 +54,7 @@ padding: 3px 5px 3px 5px;
 margin: 0 0 0 4px;
 color: #505050;
 text-decoration: none;
-background: #ffffff url(/images/corner2.gif) top right no-repeat;
+background: #ffffff url(/~pls/PLSWebsite/pls-website/hakyll/_site/images/corner2.gif) top right no-repeat;
 border-bottom: 1px solid #ffffff;
 }
 
@@ -90,14 +90,14 @@ padding: 4px 8px 4px 8px;
 margin: 0 0 4px 0;
 text-decoration: none;
 letter-spacing: 1px;
-background: #e0e0e0 url(/images/corner.gif) top right no-repeat;
+background: #e0e0e0 url(/~pls/PLSWebsite/pls-website/hakyll/_site/images/corner.gif) top right no-repeat;
 border-bottom: 1px solid #ffffff;
 border-left: 1px solid #ffffff;
 }
 
 .navitab:hover {
 text-decoration: none;
-background: #d0d0d0 url(/images/corner.gif) top right no-repeat;
+background: #d0d0d0 url( /~pls/PLSWebsite/pls-website/hakyll/_site/images/corner.gif) top right no-repeat;
 }
 
 #tabHome {
@@ -110,7 +110,7 @@ padding: 4px 8px 5px 8px;
 color: #ffffff;
 margin: 0 0 5px 0;
 text-decoration: none;
-background: #576E84 url(/images/corner.gif) top right no-repeat;
+background: #576E84 url(/~pls/PLSWebsite/pls-website/hakyll/_site/images/corner.gif) top right no-repeat;
 border-left: 1px solid #ffffff;
 }
 
@@ -122,7 +122,7 @@ text-decoration: none;
 height: 140px;
 color: #ffffff;
 padding: 0;
-background: #505050 url(/images/front.jpg) top left no-repeat;
+background: #505050 url(/~pls/PLSWebsite/pls-website/hakyll/_site/images/front.jpg) top left no-repeat;
 clear: both;
 margin: 5px 0 0 0;
 }
@@ -171,13 +171,13 @@ margin: 0 0 12px 0;
 text-align: left;
 display: block;
 width: 120px;
-background: #f0f0f0 url(/images/corner.gif) top right no-repeat;
+background: #f0f0f0 url(/~pls/PLSWebsite/pls-website/hakyll/_site/images/corner.gif) top right no-repeat;
 padding: 3px 4px 3px 8px;
 margin: 5px 10px 5px 0;
 }
 
 .sidelink:hover {
-background: #e0e0e0 url(/images/corner.gif) top right no-repeat;
+background: #e0e0e0 url(/~pls/PLSWebsite/pls-website/hakyll/_site/images/corner.gif) top right no-repeat;
 text-decoration: none;
 }
 
